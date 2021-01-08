@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Danforth Dialogues</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div id="main">
+            <h1 class="title">Danforth Dialogues</h1>
+            <p class="lead">Browse through Danforth ambassadors and connect.</p>
+            <ul id="filter-tabs">
+                <li id="major" class="clicked">Major</li>
+                <li id="state">State</li>
+            </ul>
+            <div id="filter-bar">
+                <datalist id="list"></datalist>
+                <input id="filter-box" placeholder="Choose a major" autoComplete="on" list="list"/><input id="filter-button" type="submit" value="filter"/>
+            </div>
+            <div id="students"></div>
+        </div>
+        
+        <script src="libraries/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

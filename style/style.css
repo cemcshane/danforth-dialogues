@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url("fonts/LibreBaskerville-Regular.otf") format("opentype");
+}
+
+#main {
+    width: 50%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.title {
+    font-family: 'Libre Baskerville', 'Times New Roman', serif;
+}
+
+.lead {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.333;
+    font-size: 1.728rem;
+    margin-bottom: 1.5em;
+}
+
+h1 {
+    font-size: 2rem;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    color: #a51417;
+    font-weight: 700;
+}
+
+#filter-tabs {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#filter-tabs li {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #555;
+    cursor: pointer;
+    padding: 15px 15px;
+    padding-bottom: 16px;
+    display: inline;
+}
+
+#filter-bar {
+    background: #eeeeee;
+    padding: 8px 10px 10px 10px;
+    height: 47px;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#filter-box {
+    height: 40px;
+    width: calc(80% - 36px);
+    margin: 0;
+    padding-left: 15px;
+    font-size: 18px;
+    float: left;
+    color: #555;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#filter-button {
+    background-color: #a51417;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1vw;
+    letter-spacing: 0.09em;
+    width: 20%;
+    padding: 8px 10px 10px 10px;
+    height: 46px;
+    border: none;
+    float: left;
+}
+
+.clicked {
+    background: #eeeeee;
+}
