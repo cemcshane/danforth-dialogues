@@ -20,33 +20,19 @@
                 <datalist id="list"></datalist>
                 <input id="filter-box" placeholder="Choose a major" autoComplete="on" list="list"/><input id="filter-button" type="submit" value="filter"/>
             </div>
-            <div id="students">
-                <div class="student-box">
-                    <h2>FirstName LastName</h3>
-                    <div class="student-info">
-                        <img src="img/download.jpeg">
-                        <ul>
-                            <li><span>Major:</span> Computer Science</li>
-                            <li><span>Hometown:</span> London, England</li>
-                            <li><span>Email:</span> h.webley-brown@wustl.edu</li>
-                        </ul>
-                    </div>
-                    <div class="quote-box">
-                        <p>"teststudent"</p>
-                    </div>
-                </div>
-            </div>
+            <button id="reset-button">✕ Remove filter</button>
+            <div id="students"></div>
         </div>
 
         <template id="student-template">
             <div class="student-box">
-                <h2>FirstName LastName</h3>
+                <h2>FirstName LastName</h2>
                 <div class="student-info">
                     <img src="img/download.jpeg">
                     <ul>
-                        <li><span>Major:</span> Major</li>
-                        <li><span>Hometown:</span> Hometown, Home</li>
-                        <li><span>Email:</span> testemail@wustl.edu</li>
+                        <li><span class="label">Major:</span> <span class="major-data">Major</span></li>
+                        <li><span class="label">Hometown:</span> <span class="hometown-data">Hometown, Home</span></li>
+                        <li><span class="label">Email:</span> <span class="email-data">testemail@wustl.edu</span></li>
                     </ul>
                 </div>
                 <div class="quote-box">
