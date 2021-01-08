@@ -53,6 +53,7 @@ h1 {
     padding: 8px 10px 10px 10px;
     height: 47px;
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 3em;
 }
 
 #filter-box {
@@ -82,4 +83,64 @@ h1 {
 
 .clicked {
     background: #eeeeee;
+}
+
+.student-box {
+    margin-bottom: 2em;
+    width: 70%;
+    padding: 5% 5%;
+    border: 2px solid #D7D7D7;
+    border-radius: 10px;
+}
+
+.student-box h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    font-family: 'Libre Baskerville';
+    color: #a51417;
+}
+
+.student-info {
+    margin-bottom: 1em;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.student-info img {
+    vertical-align: top;
+    width: 35%;
+}
+
+.student-info ul {
+    vertical-align: top;
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 0;
+    padding-left: 1em;
+    font-size: 16px;
+    width: 50%;
+}
+
+.student-info li {
+    margin-bottom: 1em;
+}
+
+.student-info span {
+    font-weight: 500;
+}
+
+.quote-box {
+    width: 100%;
+    background-color: #a51417;
+    border-radius: 10px;
+}
+
+.quote-box p {
+    padding: 10px;
+    margin: 0;
+    color: white;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 15px;
 }

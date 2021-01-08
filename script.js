@@ -10,6 +10,8 @@ $( document ).ready(function() {
         });             
     });
 
+    
+
     $("#filter-tabs li").click(function() {
         const tab = $(this).attr("id");
         $(".clicked").removeClass("clicked");
