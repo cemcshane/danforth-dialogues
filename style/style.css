@@ -4,7 +4,7 @@
 }
 
 #main {
-    width: 50%;
+    width: 60%;
     margin-left: 5rem;
     margin-top: 5rem;
 }
@@ -53,7 +53,7 @@ h1 {
     padding: 8px 10px 10px 10px;
     height: 47px;
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    margin-bottom: 3em;
+    margin-bottom: 0.5em;
 }
 
 #filter-box {
@@ -83,6 +83,15 @@ h1 {
 
 .clicked {
     background: #eeeeee;
+}
+
+#reset-button {
+    visibility: hidden;
+    border: none;
+    background: none;
+    color: darkgoldenrod;
+    margin-bottom: 3em;
+    font-size: 16px;
 }
 
 .student-box {
@@ -125,7 +134,7 @@ h1 {
     margin-bottom: 1em;
 }
 
-.student-info span {
+.label {
     font-weight: 500;
 }
 

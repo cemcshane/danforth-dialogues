@@ -1,0 +1,36 @@
+{
+    "students": [
+        {
+            "name": "Helen Webley-Brown",
+            "hometown": "London, England",
+            "major": "Political Science",
+            "email": "h.webley-brown@wustl.edu",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget justo bibendum, fringilla ante ornare, hendrerit ipsum. Pellentesque sed ligula mollis, iaculis neque nec, venenatis metus. Donec ultricies ipsum mi. Sed tincidunt non ex non placerat. Ut porta id justo eu euismod. Sed consequat nulla nec augue placerat luctus sed vel turpis.",
+            "filterTags": ["INTERNATIONAL", "PoliticalScience"]
+        },
+        {
+            "name": "Emily Angstreich",
+            "hometown": "Manhattan Beach, CA",
+            "major": "Psychology",
+            "email": "emily.angstreich@wustl.edu",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum sem eu sagittis fermentum. Donec at vestibulum mauris. Mauris pharetra nibh at dui fringilla, ut dapibus neque accumsan. Ut vel sapien lacus. Ut mattis lectus sed ex tempor, quis sodales purus sodales. Vivamus varius mollis quam at tristique. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+            "filterTags": ["California", "Psychology"]
+        },
+        {
+            "name": "Anh Le",
+            "hometown": "Baltimore, MD",
+            "major": "Biology and Computer Science",
+            "email": "anhsle@wustl.edu",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget justo bibendum, fringilla ante ornare, hendrerit ipsum. Pellentesque sed ligula mollis, iaculis neque nec, venenatis metus. Donec ultricies ipsum mi. Sed tincidunt non ex non placerat. Ut porta id justo eu euismod. Sed consequat nulla nec augue placerat luctus sed vel turpis. Aliquam diam purus, fermentum quis erat sed, rhoncus gravida risus. Mauris nulla arcu, dapibus nec suscipit sed, aliquet in leo. Donec imperdiet porta orci, vitae posuere magna ultricies quis.",
+            "filterTags": ["Maryland", "ComputerScience", "Biology"]
+        },
+        {
+            "name": "Spencer Williams",
+            "hometown": "Knoxville, TN",
+            "major": "Biomedical Engineering",
+            "email": "stwilliams@wustl.edu",
+            "quote": "Pellentesque sed ligula mollis, iaculis neque nec, venenatis metus. Donec ultricies ipsum mi. Sed tincidunt non ex non placerat. Ut porta id justo eu euismod. Sed consequat nulla nec augue placerat luctus sed vel turpis. Aliquam diam purus, fermentum quis erat sed, rhoncus gravida risus. Mauris nulla arcu, dapibus nec suscipit sed, aliquet in leo. Donec imperdiet porta orci, vitae posuere magna ultricies quis.",
+            "filterTags": ["Tennessee", "BiomedicalEngineering"]
+        }
+    ]
+}
